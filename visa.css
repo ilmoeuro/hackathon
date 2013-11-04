@@ -1,0 +1,51 @@
+.kontti
+{
+	width: auto;
+	margin: 0px auto;
+}
+
+#kysymykset-vastaukset
+{
+	border: solid 1px red;
+	float: left;
+	width: 400px;
+}
+#vastaukset
+{
+	float: left;
+	width: 734px;
+	height: 639px;
+	position: relative;
+	background: url("kunnat.png");
+}
+
+.vastausnappi
+{
+	background: rgb(250,250,250);
+	width: 85px;
+	height: 25px;
+	position: absolute;
+	border: solid 1px #ccc;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgb(200,200,200) inset;
+	border-radius: 2px;
+}
+
+.vastausnappi:hover {
+	background: #bbb;
+}
+
+#vastaus-enonkoski {top: 200px; left: 500px;}
+#vastaus-heinavesi {top: 70px; left: 460px;}
+#vastaus-hirvensalmi {top: 383px; left: 100px;}
+#vastaus-joroinen {top: 210px; left: 290px;}
+#vastaus-juva {top: 315px; left: 300px;}
+#vastaus-kangasniemi {top: 245px; left: 80px;}
+#vastaus-mikkeli {top: 360px; left: 193px;}
+#vastaus-mantyharju {top: 470px; left: 115px;}
+#vastaus-pertunmaa {top: 435px; left: 50px;}
+#vastaus-pieksamaki {top: 120px; left: 170px;}
+#vastaus-puumala {top: 440px; left: 415px;}
+#vastaus-rantasalmi {top: 250px; left: 385px;}
+#vastaus-savonlinna {top: 325px; left: 500px;}
+#vastaus-sulkava {top: 323px; left: 390px;}

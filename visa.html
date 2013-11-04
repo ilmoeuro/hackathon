@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hiekkalaatikko</title>
+		<title>Etelä-savo visa</title>
 		<meta charset="utf-8" />
 
 		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
@@ -14,26 +14,30 @@
 		<script src="visa.js"></script>
 	</head>
 	<body>
+		<div class="kontti">
 		<h1>Etelä-savo visa</h1>
-		<div id="edellinen-vastaus"></div>
-		<div id="kysymys"></div>
-		<div id="vastaukset">
-			<button id="vastaus-enonkoski">Enonkoski</button>
-			<button id="vastaus-heinavesi">Heinävesi</button>
-			<button id="vastaus-hirvensalmi">Hirvensalmi</button>
-			<button id="vastaus-joroinen">Joroinen</button>
-			<button id="vastaus-juva">Juva</button>
-			<button id="vastaus-kangasniemi">Kangasniemi</button>
-			<button id="vastaus-mikkeli">Mikkeli</button>
-			<button id="vastaus-mantyharju">Mäntyharju</button>
-			<button id="vastaus-pertunmaa">Pertunmaa</button>
-			<button id="vastaus-pieksamaki">Pieksämäki</button>
-			<button id="vastaus-puumala">Puumala</button>
-			<button id="vastaus-rantasalmi">Rantasalmi</button>
-			<button id="vastaus-savonlinna">Savonlinna</button>
-			<button id="vastaus-sulkava">Sulkava</button>
+		<div id="kysymykset-vastaukset">
+			<div id="pisteet">Pisteet: <span id="pistemaara"></span></div>
+			<div id="edellinen-vastaus"></div>
+			<div id="kysymys"></div>
+			<div id="tiedot"></div>
 		</div>
-		<div id="pisteet">Pisteet: <span id="pistemaara"></span></div>
-		
+		<div id="vastaukset">
+			<button class="vastausnappi" id="vastaus-enonkoski">Enonkoski</button>
+			<button class="vastausnappi" id="vastaus-heinavesi">Heinävesi</button>
+			<button class="vastausnappi" id="vastaus-hirvensalmi">Hirvensalmi</button>
+			<button class="vastausnappi" id="vastaus-joroinen">Joroinen</button>
+			<button class="vastausnappi" id="vastaus-juva">Juva</button>
+			<button class="vastausnappi" id="vastaus-kangasniemi">Kangasniemi</button>
+			<button class="vastausnappi" id="vastaus-mikkeli">Mikkeli</button>
+			<button class="vastausnappi" id="vastaus-mantyharju">Mäntyharju</button>
+			<button class="vastausnappi" id="vastaus-pertunmaa">Pertunmaa</button>
+			<button class="vastausnappi" id="vastaus-pieksamaki">Pieksämäki</button>
+			<button class="vastausnappi" id="vastaus-puumala">Puumala</button>
+			<button class="vastausnappi" id="vastaus-rantasalmi">Rantasalmi</button>
+			<button class="vastausnappi" id="vastaus-savonlinna">Savonlinna</button>
+			<button class="vastausnappi" id="vastaus-sulkava">Sulkava</button>
+		</div>
+		</div>
 	</body>
 </html>
