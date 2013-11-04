@@ -56,9 +56,14 @@ $(function(){
 	function showQuestion() {
 		if (laskuri++ >= 20) {
 			alert("Peli loppui! Pisteesi: " + pisteet);
+			var vanhat = pisteet;
 			pisteet = 0;
 			$("#edellinen-vastaus").html("");
 			laskuri = 1;
+			
+			var nimi = prompt("Anna nimesi:");
+			window.location = "http://192.168.0.7:6060/?" +
+							  nimi + "-" + vanhat;
 		}
 		var questionIndex = (Math.random() * questions.length) | 0;
 		currQuestion = questions[questionIndex];

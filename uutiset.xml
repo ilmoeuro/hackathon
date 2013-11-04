@@ -6,14 +6,13 @@
 <author><name>Ampparit.com</name><uri>http://www.ampparit.com</uri></author>
 <updated>2013-11-04T17:42:03+02:00</updated>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/ampparit-georss" /><feedburner:info uri="ampparit-georss" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly></feedburner:browserFriendly><entry>
-  <title>??? miehet ja makkarat Unkarissa (Länsi-Savo)</title>
+  <title>Mikkelin miehet ja makkarat Unkarissa (Länsi-Savo)</title>
   <link href="http://www.ampparit.com/redir.php?id=1724596243" />
   <updated>2013-11-04T17:37:10+02:00</updated>
   <id>tag:ampparit.com,2013-11-04:1724596243</id>
   <link rel="via" href="http://www.lansi-savo.fi" title="Länsi-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>mikkeli</kunta>
   <georss:point>61.685807 27.273488</georss:point>
 </entry>
 <entry>
@@ -45,7 +44,6 @@
   <link rel="via" href="http://www.lansi-savo.fi" title="Länsi-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>mikkeli</kunta>
   <georss:point>61.685807 27.273488</georss:point>
 </entry>
 <entry>
@@ -132,14 +130,13 @@
   <georss:point>62.601090 29.763530</georss:point>
 </entry>
 <entry>
-  <title>??? ei nosta veroprosentteja (Itä-Savo)</title>
+  <title>Rantasalmi ei nosta veroprosentteja (Itä-Savo)</title>
   <link href="http://www.ampparit.com/redir.php?id=1235166228" />
   <updated>2013-11-04T16:30:54+02:00</updated>
   <id>tag:ampparit.com,2013-11-04:1235166228</id>
   <link rel="via" href="http://www.ita-savo.fi" title="Itä-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>rantasalmi</kunta>
   <georss:point>62.063996 28.302808</georss:point>
 </entry>
 <entry>
@@ -311,14 +308,13 @@
   <georss:point>61.170455 28.772067</georss:point>
 </entry>
 <entry>
-  <title>??? tahto ei toteudu tuulivoimakaavassa (Itä-Savo)</title>
+  <title>Savonlinnan tahto ei toteudu tuulivoimakaavassa (Itä-Savo)</title>
   <link href="http://www.ampparit.com/redir.php?id=353791588" />
   <updated>2013-11-04T14:45:37+02:00</updated>
   <id>tag:ampparit.com,2013-11-04:353791588</id>
   <link rel="via" href="http://www.ita-savo.fi" title="Itä-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>savonlinna</kunta>
   <georss:point>61.868702 28.885056</georss:point>
 </entry>
 <entry>
@@ -351,7 +347,6 @@
   <link rel="via" href="http://www.lansi-savo.fi" title="Länsi-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>pieksamaki</kunta>
   <georss:point>62.299922 27.160235</georss:point>
 </entry>
 <entry>
@@ -536,14 +531,13 @@
   <georss:point>60.173324 24.941025</georss:point>
 </entry>
 <entry>
-  <title>??? avaa ensimmäisenä terveyskeskuksensa kaikille (Länsi-Savo)</title>
+  <title>Juva avaa ensimmäisenä terveyskeskuksensa kaikille (Länsi-Savo)</title>
   <link href="http://www.ampparit.com/redir.php?id=67801242" />
   <updated>2013-11-04T13:13:47+02:00</updated>
   <id>tag:ampparit.com,2013-11-04:67801242</id>
   <link rel="via" href="http://www.lansi-savo.fi" title="Länsi-Savo" />
   <category term="maakunnat" label="Maakunnat" />
   <category term="etelä-savo" label="Etelä-Savo" />
-  <kunta>juva</kunta>
   <georss:point>61.894747 27.861762</georss:point>
 </entry>
 </feed>
