@@ -11,18 +11,24 @@
 		<![endif]-->
 		<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="postinumerot.js"></script>
 		<script src="visa.js"></script>
 	</head>
 	<body>
 		<div class="kontti">
+		
+		<div id="kysymykset-vastaukset-cont">
+		
 		<h1>Etelä-savo visa</h1>
-		<div id="kysymykset-vastaukset">
-			<div id="pisteet">Pisteet: <span id="pistemaara"></span></div>
-			<div id="edellinen-vastaus"></div>
-			<div id="kysymys"></div>
-			<div id="tiedot"></div>
+		
+			<div id="kysymykset-vastaukset">
+				<div id="pisteet">Pisteet: <span id="pistemaara"></span></div>
+				<div id="kysymys"></div>
+				<div id="tiedot"></div>
+				<div id="edellinen-vastaus"></div>
+			</div>
 		</div>
-		<div id="vastaukset">
+		<div id="kartta">
 			<button class="vastausnappi" id="vastaus-enonkoski">Enonkoski</button>
 			<button class="vastausnappi" id="vastaus-heinavesi">Heinävesi</button>
 			<button class="vastausnappi" id="vastaus-hirvensalmi">Hirvensalmi</button>

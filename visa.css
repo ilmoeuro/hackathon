@@ -1,23 +1,45 @@
+
+
 .kontti
 {
-	width: auto;
+	width: 1150px;
 	margin: 0px auto;
+	height: 610px;
 }
 
-#kysymykset-vastaukset
+#kysymykset-vastaukset-cont
 {
-	border: solid 1px red;
 	float: left;
 	width: 400px;
+	position: relative;
+	height: 100%;
 }
-#vastaukset
+
+#kartta
 {
 	float: left;
 	width: 734px;
-	height: 639px;
+	height: 610px;
 	position: relative;
 	background: url("kunnat.png");
 }
+/* #kysymykset-vastaukset
+{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+} */
+
+#tiedot
+{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#pisteet, #tiedot {margin-bottom: 10px;}
+
+.oikea-vastaus {color: green;}
+.vaara-vastaus {color: red;}
 
 .vastausnappi
 {

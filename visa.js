@@ -1,11 +1,5 @@
 (function(){
 var questions = [
-	{text: "Missä sijaitsee seuraava postinumero?",
-	 detail: "50190",
-	 answer: "mikkeli"},
- 	{text: "Missä sijaitsee seuraava postinumero?",
-	 detail: "50120",
-	 answer: "mikkeli"}
 ];
 
 function cap(str) {
@@ -13,11 +7,28 @@ function cap(str) {
 }
 
 var currQuestion, pisteet;
-currQuestion = questions[0];
 
 $(function(){
 	pisteet = 0;
 
+	function loadQuestions() {
+		for (var i = 0; i < postinumerot.length; i++) {
+			var postinro = postinumerot[i];
+			questions.push({
+				text: "Minkä kunnan postinumero on:",
+				detail: postinro.postcode,
+				answer: postinro.region.toLowerCase()
+			});
+			
+			if (postinro.name != postinro.region) {
+				questions.push({
+					text: "Minkä kunnan postitoimipaikka on:",
+					detail: postinro.name,
+					answer: postinro.region.toLowerCase()
+				});
+			}
+		}
+	}
 
 	function showQuestion() {
 		var questionIndex = (Math.random() * questions.length) | 0;
@@ -28,11 +39,21 @@ $(function(){
 	}
 
 	function processAnswer(answer) {
+		var teksti = "Kysymykseen<br/>" + currQuestion.text
+		teksti = teksti + "<br/>" + currQuestion.detail + "<br/>";
+		teksti = teksti + "Vastaus " + cap(answer);
 		if (answer == currQuestion.answer) {
-			$("#edellinen-vastaus").html("Vastaus " + cap(answer) + " oli oikein!");
+			teksti = teksti + " oli oikein!";
+			$("#edellinen-vastaus").html(teksti);
+			$("#edellinen-vastaus").removeClass("vaara-vastaus");
+			$("#edellinen-vastaus").addClass("oikea-vastaus");
 			pisteet++;
 		} else {
-			$("#edellinen-vastaus").html("Vastaus " + cap(answer) + " oli väärin!");
+			teksti = teksti + " oli väärin!";
+			teksti = teksti + "<br/> Oikea vastaus on: " + cap(currQuestion.answer);
+			$("#edellinen-vastaus").html(teksti);
+			$("#edellinen-vastaus").removeClass("oikea-vastaus");
+			$("#edellinen-vastaus").addClass("vaara-vastaus");
 		}
 	}
 
@@ -42,6 +63,8 @@ $(function(){
 		showQuestion();
 	});
 
+	loadQuestions();
+	currQuestion = questions[0];
 	showQuestion();
 
 });
