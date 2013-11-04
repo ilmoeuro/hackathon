@@ -1,0 +1,6 @@
+1. Data palikka
+2. Selvittää mitä dataa on saatavilla? Mitä voidaan käyttää?
+	- Sää havainnot.
+3. Kysymyksiä visaa varten
+4. käyttöliittymät
+5. 

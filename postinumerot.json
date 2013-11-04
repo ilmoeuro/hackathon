@@ -1,0 +1,22 @@
+[
+    {
+        "postcode": "12345",
+        "areaname": "alue1"
+    },
+    {
+        "postcode": "12352",
+        "areaname": "alue2"
+    },
+    {
+        "postcode": "1342",
+        "areaname": "alue3"
+    },
+    {
+        "postcode": "1243",
+        "areaname": "alue4"
+    },
+    {
+        "postcode": "12343",
+        "areaname": "alue5"
+    }
+]
