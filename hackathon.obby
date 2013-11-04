@@ -1,0 +1,16 @@
+!obby
+session version="0.4.8"
+ user_table
+  user colour="ccccff" id="1" name="ilmo"
+  user colour="fdbedd" id="2" name="heikkikurhinen"
+  user colour="55e00a" id="3" name="kolmis"
+ chat
+  system_message text="ilmo has joined" timestamp="1383563635"
+  system_message text="heikkikurhinen has joined" timestamp="1383563658"
+  user_message text="trörllörlr" timestamp="1383563670" user="1"
+  user_message text="asdsad" timestamp="1383563674" user="2"
+  system_message text="ilmo has created a new document: hiekkalaatikko.js" timestamp="1383563685"
+  system_message text="kolmis has joined" timestamp="1383563795"
+  system_message text="ilmo has created a new document: hiekkalaatikko.html" timestamp="1383563853"
+ document encoding="UTF-8" id="1" owner="1" suffix="1" title="hiekkalaatikko.js"
+ document encoding="UTF-8" id="2" owner="1" suffix="1" title="hiekkalaatikko.html"
